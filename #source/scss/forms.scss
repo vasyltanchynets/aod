@@ -1,0 +1,31 @@
+//<INPUT>=====================================================================================================
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.input {
+  border-radius: 0 !important;
+  width: 100%;
+  display: block;
+  padding: 0px 25px;
+  height: 79px;
+  border: 1px solid #d3d7d9;
+  color: #cdcdcd;
+  font-family: $fontfamily;
+  font-size: 20px;
+  &.focus {
+  }
+  &.err {
+    border: 1px solid red;
+  }
+}
+textarea.input {
+  resize: none;
+  height: 100px;
+  padding: 10px 18px;
+}
+//</INPUT>====================================================================================================
